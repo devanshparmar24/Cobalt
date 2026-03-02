@@ -1,3 +1,5 @@
+import Button from "../ui/Button";
+
 export default function Contact() {
   return (
     <section className="relative bg-[#050B14] pt-32 pb-24 overflow-hidden">
@@ -19,9 +21,7 @@ export default function Contact() {
         </p>
 
         <div className="mt-10">
-          <button className="px-6 py-3 rounded-full border border-white/20 text-sm hover:border-white/40 transition">
-            Join the waitlist
-          </button>
+          <Button />
         </div>
 
       </div>

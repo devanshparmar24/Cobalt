@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Button from "../ui/Button";
 
 export default function Hero() {
   return (
@@ -50,13 +51,10 @@ export default function Hero() {
 
         {/* CTA */}
         <div className="mt-10 flex flex-col items-center gap-6">
-          <button className="px-6 py-3 rounded-full border border-white/20 text-white text-sm hover:border-white/40 transition">
-            Join the waitlist
-          </button>
-
+          <Button />
           <div className="flex flex-col items-center text-white/50 text-sm">
             <span>Learn more</span>
-            <span className="mt-1 text-lg">↓</span>
+            <span className="mt-0 text-lg">↓</span>
           </div>
         </div>
       </div>
