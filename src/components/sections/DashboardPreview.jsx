@@ -21,7 +21,7 @@ export default function DashboardPreview() {
       </div>
 
       {/* Text Section Below */}
-      <div className="max-w-6xl mx-auto px-6 mt-56 grid md:grid-cols-2 gap-12 items-start">
+      <div className="max-w-7xl mx-auto px-6 mt-56 grid md:grid-cols-2 gap-12 items-start">
         
         {/* Left Heading */}
         <h2 className="text-5xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-white to-zinc-500  bg-clip-text text-transparent">

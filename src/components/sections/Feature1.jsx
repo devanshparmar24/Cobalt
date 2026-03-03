@@ -24,13 +24,15 @@ export default function Feature1() {
 
           {/* Card 1 */}
           <div className="md:col-span-2 bg-[#0D1523] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
-            <Image
-              src="/img2.png"
-              alt="Insights"
-              width={600}
-              height={400}
-              className="rounded-xl mb-6"
-            />
+            <div className="h-48 mb-6 overflow-hidden rounded-xl">
+              <Image
+                src="/img2.png"
+                alt="Insights"
+                width={600}
+                height={400}
+                className="w-full h-full object-cover"
+              />
+            </div>
             <h3 className="text-lg font-medium">
               Insights at your fingertips
             </h3>
@@ -42,13 +44,15 @@ export default function Feature1() {
 
           {/* Card 2 */}
           <div className="md:col-span-2 bg-[#0D1523] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
-            <Image
-              src="/img3.png"
-              alt="Manage in real time"
-              width={600}
-              height={400}
-              className="rounded-xl mb-6"
-            />
+            <div className="h-48 mb-6 overflow-hidden rounded-xl">
+              <Image
+                src="/img3.png"
+                alt="Insights"
+                width={600}
+                height={400}
+                className="w-full h-full object-cover"
+              />
+            </div>
             <h3 className="text-lg font-medium">
               Manage in real time
             </h3>
@@ -60,13 +64,15 @@ export default function Feature1() {
 
           {/* Card 3 */}
           <div className="md:col-span-2 bg-[#0D1523] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
-            <Image
-              src="/img4.png"
-              alt="Business alerts"
-              width={600}
-              height={400}
-              className="rounded-xl mb-6"
-            />
+            <div className="h-48 mb-6 overflow-hidden rounded-xl">
+              <Image
+                src="/img4.png"
+                alt="Insights"
+                width={600}
+                height={400}
+                className="w-full h-full object-cover"
+              />
+            </div>
             <h3 className="text-lg font-medium">
               Important business alerts
             </h3>
@@ -78,13 +84,15 @@ export default function Feature1() {
 
           {/* Card 4 (Wide) */}
           <div className="md:col-span-3 bg-[#0D1523] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
-            <Image
-              src="/img5.png"
-              alt="Connect apps"
-              width={800}
-              height={500}
-              className="rounded-xl mb-6"
-            />
+            <div className="h-48 mb-6 overflow-hidden rounded-xl">
+              <Image
+                src="/img5.png"
+                alt="Insights"
+                width={600}
+                height={400}
+                className="w-full h-full object-cover"
+              />
+            </div>
             <h3 className="text-lg font-medium">
               Connect all your apps
             </h3>
@@ -96,13 +104,15 @@ export default function Feature1() {
 
           {/* Card 5 (Wide) */}
           <div className="md:col-span-3 bg-[#0D1523] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
-            <Image
-              src="/img6.png"
-              alt="You're in control"
-              width={800}
-              height={500}
-              className="rounded-xl mb-6"
-            />
+            <div className="h-48 mb-6 overflow-hidden rounded-xl">
+              <Image
+                src="/img6.png"
+                alt="Insights"
+                width={600}
+                height={400}
+                className="w-full h-full object-cover"
+              />
+            </div>
             <h3 className="text-lg font-medium">
               You’re in control
             </h3>
