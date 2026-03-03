@@ -1,8 +1,8 @@
 "use client";
 
-export default function Button({children = "Get Started"}) {
+export default function Button({children = "Get Started", onClick}) {
   return (
-    <button  className="relative w-[136px] h-[36px] hover:-translate-y-1 rounded-full bg-[rgba(9,9,11,1)] overflow-hidden group transition">
+    <button onClick={onClick} className="relative w-[136px] h-[36px] hover:-translate-y-1 rounded-full bg-[rgba(9,9,11,1)] overflow-hidden group transition">
       
       {/* Subtle border */}
       <div className="absolute inset-0 rounded-full border border-white/10" />

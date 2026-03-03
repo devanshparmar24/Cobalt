@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Logo from "./Logo";
 import Button from "../ui/Button";
+import {ScrollToContact} from "../ui/ScrollToContact";
 
 export default function Navbar() {
   return (
@@ -20,7 +21,7 @@ export default function Navbar() {
             Blog
           </Link>
 
-          <Button children={"Join the waitlist"} />
+          <Button children={"Join the waitlist"} onClick = {ScrollToContact} />
         </div>
 
       </div>
