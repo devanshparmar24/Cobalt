@@ -10,7 +10,7 @@ export default function Contact() {
 
         <div className="w-40 h-px bg-white/10 mx-auto mb-16" />
 
-        <h2 className="text-4xl font-semibold tracking-tight bg-gradient-to-b from-[#F4F4F5] to-[#52525B] bg-clip-text text-transparent">
+        <h2 className="text-4xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-[#F4F4F5] to-[#52525B] bg-clip-text text-transparent">
           See where financial automation can
           <br />
           take your business.

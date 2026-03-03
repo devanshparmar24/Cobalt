@@ -7,7 +7,7 @@ export default function Feature2() {
 
         {/* Section Heading */}
         <div className="max-w-xl">
-          <h2 className="text-4xl md:text-5xl font-semibold">
+          <h2 className="text-4xl md:text-5xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-white to-zinc-500  bg-clip-text text-transparent">
             Meet Genius
           </h2>
 

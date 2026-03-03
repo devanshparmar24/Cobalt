@@ -6,7 +6,7 @@ export default function Pricing() {
       <div className="max-w-6xl mx-auto px-6 text-center">
 
         {/* Heading */}
-        <h2 className="text-4xl md:text-5xl font-semibold">
+        <h2 className="text-4xl md:text-5xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-white to-zinc-500  bg-clip-text text-transparent">
           Simple pricing
         </h2>
 

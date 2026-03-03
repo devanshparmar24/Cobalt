@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="relative bg-[#09090B] pb-20 ">
@@ -42,9 +44,9 @@ export default function Footer() {
 
           {/* Social Icons */}
           <div className="flex items-start gap-6 text-white/60 text-lg ">
-            <a href="#" className="hover:text-white transition">X</a>
-            <a href="#" className="hover:text-white transition">in</a>
-            <a href="#" className="hover:text-white transition">f</a>
+            <a href="#" className="hover:text-white transition"><Image src='/x.png' alt="x" width={16} height={16} /></a>
+            <a href="#" className="hover:text-white transition"><Image src='/linkedin.png' alt="In" width={16} height={16}/></a>
+            <a href="#" className="hover:text-white transition"><Image src='/facebook.png' alt="fb" width={16} height={16}/></a>
           </div>
 
         </div>
