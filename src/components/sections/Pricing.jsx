@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 export default function Pricing() {
   return (
     <section className="relative bg-[#09090B] py-32">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+      <div className="max-w-7xl mx-auto px-6 text-center">
 
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-semibold leading-tight tracking-tight bg-gradient-to-b from-white to-zinc-500  bg-clip-text text-transparent">

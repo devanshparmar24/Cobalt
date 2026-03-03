@@ -5,7 +5,7 @@ import Button from "../ui/Button";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#050B14]">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#09090B]">
 
       {/* Base */}
       <div className="absolute inset-0 bg-[#09090B]" />
@@ -21,7 +21,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
 
         {/* Heading */}
         <motion.h1

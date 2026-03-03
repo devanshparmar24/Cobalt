@@ -5,7 +5,7 @@ export default function DashboardPreview() {
     <section className="relative bg-[#09090B] pb-32">
 
       {/* Dashboard Image */}
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="relative rounded-2xl overflow-hidden border border-white/5 shadow-2xl">
           
           <Image

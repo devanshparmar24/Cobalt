@@ -4,14 +4,14 @@ import Button from "../ui/Button";
 
 export default function Navbar() {
   return (
-    <header className="absolute top-0 left-0 w-dvw z-50">
-      <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
+    <header className="absolute top-0 left-0 w-full z-50">
+      <div className="max-w-7xl mx-auto px-[72px] h-[80px] flex items-center justify-between">
 
-        {/* Logo Image */}
+        {/* Logo */}
         <Logo className="h-9" />
 
-        {/* Right: Navigation */}
-        <div className="flex items-center gap-8">
+        {/* Right side */}
+        <div className="flex items-center gap-10">
 
           <Link
             href="#"
@@ -22,6 +22,7 @@ export default function Navbar() {
 
           <Button />
         </div>
+
       </div>
     </header>
   );

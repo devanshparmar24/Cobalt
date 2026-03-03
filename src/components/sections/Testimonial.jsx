@@ -25,8 +25,8 @@ export default function Testimonial() {
 
 
         <section className="py-20 px-6 bg-[#09090B] text-white">
-            <div className="max-w-6xl mx-auto">
-                <h2 className="text-4xl font-semibold text-center mb-12
+            <div className="max-w-7xl mx-auto">
+                <h2 className="text-4xl font-semibold text-center leading-tight mb-12
                    bg-gradient-to-b from-[#F4F4F5] to-[#52525B]
                    bg-clip-text text-transparent">
                     What People Are Saying
