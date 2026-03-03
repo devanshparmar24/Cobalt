@@ -1,4 +1,5 @@
 import Image from "next/image";
+import FeatureCard from "../ui/FeatureCard";
 
 export default function Feature2() {
   return (
@@ -18,57 +19,25 @@ export default function Feature2() {
         </div>
 
         {/* Cards */}
-        <div className="mt-16 grid md:grid-cols-2 gap-8">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
 
-          {/* Card 1 */}
-          <div className="bg-gradient-to-b from-[black] to-[#0001] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
+          <FeatureCard
+            image="/img7.png"
+            alt="Smart forecasting"
+            title="Smart forecasting"
+            description="Harness the power of Cobalt's predictive analytics to map out the financial future of your business."
+            colSpan="md:col-span-1"
+            imageHeight="h-56 md:h-64"
+          />
 
-            {/* Image Section */}
-            <div className="relative rounded-xl overflow-hidden mb-6">
-              <Image
-                src="/img7.png"  // change to your image name
-                alt="Smart forecasting"
-                width={800}
-                height={500}
-                className="w-full h-auto"
-              />
-            </div>
-
-            {/* Text Content */}
-            <h3 className="text-lg font-medium">
-              Smart forecasting
-            </h3>
-
-            <p className="mt-3 text-white/60 text-sm leading-relaxed">
-              Harness the power of Cobalt's predictive analytics to map out
-              the financial future of your business.
-            </p>
-          </div>
-
-          {/* Card 2 */}
-          <div className="bg-gradient-to-b from-[black] to-[#0001] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
-
-            {/* Image Section */}
-            <div className="relative rounded-xl overflow-hidden mb-6">
-              <Image
-                src="/img8.png"  // change to your image name
-                alt="Chat with Genius"
-                width={800}
-                height={500}
-                className="w-full h-auto"
-              />
-            </div>
-
-            {/* Text Content */}
-            <h3 className="text-lg font-medium">
-              Chat with Genius
-            </h3>
-
-            <p className="mt-3 text-white/60 text-sm leading-relaxed">
-              Just ask. With Genius by your side, navigating the financial
-              maze becomes intuitive and effortless.
-            </p>
-          </div>
+          <FeatureCard
+            image="/img8.png"
+            alt="Chat with Genius"
+            title="Chat with Genius"
+            description="Just ask. With Genius by your side, navigating the financial maze becomes intuitive and effortless."
+            colSpan="md:col-span-1"
+            imageHeight="h-56 md:h-64"
+          />
 
         </div>
       </div>
