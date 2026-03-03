@@ -23,7 +23,7 @@ export default function Feature1() {
         <div className="mt-20 grid grid-cols-1 md:grid-cols-6 gap-6">
 
           {/* Card 1 */}
-          <div className="md:col-span-2 bg-[#0D1523] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
+          <div className="md:col-span-2 bg-gradient-to-b from-[black] to-[#0001] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
             <div className="h-48 mb-6 overflow-hidden rounded-xl">
               <Image
                 src="/img2.png"
@@ -43,7 +43,7 @@ export default function Feature1() {
           </div>
 
           {/* Card 2 */}
-          <div className="md:col-span-2 bg-[#0D1523] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
+          <div className="md:col-span-2 bg-gradient-to-b from-[black] to-[#0001] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
             <div className="h-48 mb-6 overflow-hidden rounded-xl">
               <Image
                 src="/img3.png"
@@ -63,7 +63,7 @@ export default function Feature1() {
           </div>
 
           {/* Card 3 */}
-          <div className="md:col-span-2 bg-[#0D1523] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
+          <div className="md:col-span-2 bg-gradient-to-b from-[#black] to-[#0001] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
             <div className="h-48 mb-6 overflow-hidden rounded-xl">
               <Image
                 src="/img4.png"
@@ -83,7 +83,7 @@ export default function Feature1() {
           </div>
 
           {/* Card 4 (Wide) */}
-          <div className="md:col-span-3 bg-[#0D1523] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
+          <div className="md:col-span-3 bg-gradient-to-b from-[#black] to-[#0001] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
             <div className="h-48 mb-6 overflow-hidden rounded-xl">
               <Image
                 src="/img5.png"
@@ -103,7 +103,7 @@ export default function Feature1() {
           </div>
 
           {/* Card 5 (Wide) */}
-          <div className="md:col-span-3 bg-[#0D1523] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
+          <div className="md:col-span-3 bg-gradient-to-b from-[black] to-[#0001] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
             <div className="h-48 mb-6 overflow-hidden rounded-xl">
               <Image
                 src="/img6.png"

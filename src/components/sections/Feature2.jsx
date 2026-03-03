@@ -21,7 +21,7 @@ export default function Feature2() {
         <div className="mt-16 grid md:grid-cols-2 gap-8">
 
           {/* Card 1 */}
-          <div className="bg-[#0D1523] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
+          <div className="bg-gradient-to-b from-[black] to-[#0001] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
 
             {/* Image Section */}
             <div className="relative rounded-xl overflow-hidden mb-6">
@@ -46,7 +46,7 @@ export default function Feature2() {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-[#0D1523] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
+          <div className="bg-gradient-to-b from-[black] to-[#0001] rounded-2xl p-6 border border-white/5 hover:border-white/10 transition">
 
             {/* Image Section */}
             <div className="relative rounded-xl overflow-hidden mb-6">

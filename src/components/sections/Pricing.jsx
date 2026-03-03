@@ -25,7 +25,7 @@ export default function Pricing() {
             <div
               key={i}
               className={`
-                relative p-8 rounded-2xl bg-[#0D1523]
+                relative p-8 rounded-2xl bg-gradient-to-b from-[black] to-[#0001]
                 border transition duration-300
                 hover:-translate-y-1
                 ${
