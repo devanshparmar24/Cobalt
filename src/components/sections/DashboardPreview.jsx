@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function DashboardPreview() {
   return (
-    <section className="relative bg-[#050B14] pb-32">
+    <section className="relative bg-[#09090B] pb-32">
 
       {/* Dashboard Image */}
       <div className="max-w-6xl mx-auto px-6">
@@ -24,9 +24,7 @@ export default function DashboardPreview() {
       <div className="max-w-6xl mt-[222px]  mx-auto px-6 mt-24 grid md:grid-cols-2 gap-12 items-start">
         
         {/* Left Heading */}
-        <h2 className="text-5xl font-semibold tracking-tight 
-               bg-gradient-to-b from-white to-zinc-500 
-               bg-clip-text text-transparent">
+        <h2 className="text-5xl font-semibold tracking-tight  bg-gradient-to-b from-white to-zinc-500  bg-clip-text text-transparent">
           Who said finance has to
           <br />
           be boring?

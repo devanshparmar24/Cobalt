@@ -2,7 +2,7 @@ import Button from "../ui/Button";
 
 export default function Pricing() {
   return (
-    <section className="relative bg-[#050B14] py-32">
+    <section className="relative bg-[#09090B] py-32">
       <div className="max-w-6xl mx-auto px-6 text-center">
 
         {/* Heading */}

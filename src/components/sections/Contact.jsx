@@ -2,7 +2,7 @@ import Button from "../ui/Button";
 
 export default function Contact() {
   return (
-    <section className="relative bg-[#050B14] pt-32 pb-24 overflow-hidden">
+    <section className="relative bg-[#09090B] pt-32 pb-24 overflow-hidden">
 
       {/* Subtle dashboard glow */}
 
@@ -10,12 +10,7 @@ export default function Contact() {
 
         <div className="w-40 h-px bg-white/10 mx-auto mb-16" />
 
-        <h2 className="text-4xl font-semibold tracking-tight
-            bg-gradient-to-b
-            from-[#F4F4F5]
-            to-[#52525B]
-            bg-clip-text
-            text-transparent">
+        <h2 className="text-4xl font-semibold tracking-tight bg-gradient-to-b from-[#F4F4F5] to-[#52525B] bg-clip-text text-transparent">
           See where financial automation can
           <br />
           take your business.

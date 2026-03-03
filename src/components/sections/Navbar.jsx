@@ -4,7 +4,7 @@ import Button from "../ui/Button";
 
 export default function Navbar() {
   return (
-    <header className="absolute top-0 left-0 w-full z-50">
+    <header className="absolute top-0 left-0 w-dvw z-50">
       <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
 
         {/* Logo Image */}

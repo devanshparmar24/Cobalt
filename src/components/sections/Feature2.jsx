@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Feature2() {
   return (
-    <section className="bg-[#050B14] py-32">
+    <section className="bg-[#09090B] py-32">
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Section Heading */}

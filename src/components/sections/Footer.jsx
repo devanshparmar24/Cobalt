@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="relative bg-[#050B14] pb-20 ">
+    <footer className="relative bg-[#09090B] pb-20 ">
 
       {/* Divider Line */}
       <div className="max-w-7xl mx-auto px-6">
